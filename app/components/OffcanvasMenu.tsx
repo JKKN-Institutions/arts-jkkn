@@ -16,7 +16,7 @@ export default function OffcanvasMenu() {
                 </Link>
               </div>
               <div className="hamburger_close">
-                <button className="hamburger_close_btn">Ã—</button>
+                <button className="hamburger_close_btn" aria-label="Close mobile menu">×</button>
               </div>
             </div>
             <div className="offcanvas-text">
@@ -76,7 +76,7 @@ export default function OffcanvasMenu() {
                 </Link>
               </div>
               <div className="hamburger_close">
-                <button className="hamburger_close_btn">Ã—</button>
+                <button className="hamburger_close_btn" aria-label="Close mobile menu">×</button>
               </div>
             </div>
             <div className="hamburger-search-area">

@@ -479,12 +479,138 @@ export default function RootLayout({
               transition: all 0.3s !important;
             }
             
+            .menu_bar.mobile_menu_bar {
+              width: 50px !important;
+              height: 50px !important;
+              padding: 12px !important;
+              background: var(--tj-color-theme-primary) !important;
+              border-radius: 7px !important;
+              cursor: pointer !important;
+              display: flex !important;
+              align-items: center !important;
+              justify-content: center !important;
+              position: relative !important;
+              z-index: 999 !important;
+            }
+            
+            .menu_bar.mobile_menu_bar button {
+              background: none !important;
+              border: none !important;
+              padding: 0 !important;
+              cursor: pointer !important;
+              display: flex !important;
+              flex-direction: column !important;
+              align-items: center !important;
+              justify-content: center !important;
+              width: 100% !important;
+              height: 100% !important;
+            }
+            
             .menu_bar.mobile_menu_bar span {
               background-color: var(--tj-color-common-white) !important;
+              width: 25px !important;
+              height: 3px !important;
+              margin: 2px 0 !important;
+              transition: all 0.3s ease !important;
+            }
+            
+            .menu_bar.mobile_menu_bar span:first-child,
+            .menu_bar.mobile_menu_bar span:last-child {
+              width: 25px !important;
+            }
+            
+            .menu_bar.mobile_menu_bar span:nth-child(2) {
+              width: 20px !important;
+            }
+            
+            .menu_bar.mobile_menu_bar span:nth-child(3) {
+              width: 15px !important;
             }
             
             .header-2.header-absolute .menu_bar span {
               background-color: var(--tj-color-common-white) !important;
+            }
+            
+            /* Mobile menu toggle animation */
+            .menu_bar.mobile_menu_bar.menu-bar-toggeled span:nth-child(1) {
+              transform: rotate(45deg) translate(5px, 5px) !important;
+            }
+            
+            .menu_bar.mobile_menu_bar.menu-bar-toggeled span:nth-child(2) {
+              opacity: 0 !important;
+            }
+            
+            .menu_bar.mobile_menu_bar.menu-bar-toggeled span:nth-child(3) {
+              transform: rotate(-45deg) translate(7px, -6px) !important;
+              width: 25px !important;
+            }
+            
+            .menu_bar.mobile_menu_bar.menu-bar-toggeled span:nth-child(4) {
+              display: none !important;
+            }
+            
+            /* Hamburger menu styling */
+            .hamburger-area {
+              position: fixed !important;
+              top: 0 !important;
+              left: 0 !important;
+              width: 100% !important;
+              height: 100vh !important;
+              background: rgba(0, 0, 0, 0.9) !important;
+              z-index: 9999 !important;
+              transform: translateX(-100%) !important;
+              transition: all 0.3s ease !important;
+              visibility: hidden !important;
+              opacity: 0 !important;
+            }
+            
+            .hamburger-area.opened {
+              transform: translateX(0) !important;
+              visibility: visible !important;
+              opacity: 1 !important;
+            }
+            
+            .hamburger_wrapper {
+              max-width: 400px !important;
+              width: 100% !important;
+              height: 100% !important;
+              background: var(--tj-color-theme-dark) !important;
+              padding: 30px !important;
+              overflow-y: auto !important;
+            }
+            
+            /* Responsive adjustments for mobile menu toggle */
+            @media (max-width: 991px) {
+              .menu_bar.mobile_menu_bar {
+                display: flex !important;
+              }
+              
+              .mainmenu {
+                display: none !important;
+              }
+            }
+            
+            @media (min-width: 992px) {
+              .menu_bar.mobile_menu_bar {
+                display: none !important;
+              }
+              
+              .mainmenu {
+                display: flex !important;
+              }
+            }
+            
+            /* Ensure mobile menu toggle is always on top */
+            .header-wrapper {
+              position: relative !important;
+              z-index: 998 !important;
+            }
+            
+            /* Body scroll lock when menu is open */
+            body.overflow-hidden {
+              overflow: hidden !important;
+              position: fixed !important;
+              width: 100% !important;
             }
             
             /* Force correct service section background */

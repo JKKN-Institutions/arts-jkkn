@@ -396,8 +396,8 @@ export default function Header() {
               </div> */}
 
               {/* menu bar */}
-              <div className="menu_bar mobile_menu_bar d-lg-none">
-                <button type="button">
+              <div className="menu_bar mobile_menu_bar d-lg-none" id="mobile-menu-toggle">
+                <button type="button" aria-label="Toggle mobile menu">
                   <span></span>
                   <span></span>
                   <span></span>

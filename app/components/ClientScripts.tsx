@@ -24,36 +24,95 @@ export default function ClientScripts() {
         const initializeMobileMenu = () => {
           // Mobile menu toggle functionality
           const mobileMenuBar = document.querySelector('.mobile_menu_bar') as HTMLElement;
+          const mobileMenuToggle = document.getElementById('mobile-menu-toggle') as HTMLElement;
           const hamburgerArea = document.querySelector('.hamburger-area') as HTMLElement;
           const bodyOverlay = document.querySelector('.body-overlay') as HTMLElement;
           const hamburgerCloseBtn = document.querySelector('.hamburger_close_btn') as HTMLElement;
           
-          if (mobileMenuBar) {
-            mobileMenuBar.addEventListener('click', () => {
-              mobileMenuBar.classList.toggle('menu-bar-toggeled');
-              if (hamburgerArea) hamburgerArea.classList.add('opened');
-              if (bodyOverlay) bodyOverlay.classList.add('opened');
-              document.body.classList.toggle('overflow-hidden');
-            });
+          // Use either the mobile_menu_bar class or the ID
+          const toggleElement = mobileMenuToggle || mobileMenuBar;
+          
+          if (toggleElement) {
+            const handleToggleClick = (e: Event) => {
+              e.preventDefault();
+              e.stopPropagation();
+              
+              toggleElement.classList.toggle('menu-bar-toggeled');
+              if (hamburgerArea) {
+                hamburgerArea.classList.add('opened');
+                hamburgerArea.style.transform = 'translateX(0)';
+                hamburgerArea.style.visibility = 'visible';
+                hamburgerArea.style.opacity = '1';
+              }
+              if (bodyOverlay) {
+                bodyOverlay.classList.add('opened');
+              }
+              document.body.classList.add('overflow-hidden');
+            };
+            
+            toggleElement.addEventListener('click', handleToggleClick);
+            
+            // Also add click handler to the button inside
+            const button = toggleElement.querySelector('button');
+            if (button) {
+              button.addEventListener('click', handleToggleClick);
+            }
           }
           
           if (hamburgerCloseBtn) {
-            hamburgerCloseBtn.addEventListener('click', () => {
-              if (mobileMenuBar) mobileMenuBar.classList.remove('menu-bar-toggeled');
-              if (hamburgerArea) hamburgerArea.classList.remove('opened');
-              if (bodyOverlay) bodyOverlay.classList.remove('opened');
+            hamburgerCloseBtn.addEventListener('click', (e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              
+              if (toggleElement) toggleElement.classList.remove('menu-bar-toggeled');
+              if (hamburgerArea) {
+                hamburgerArea.classList.remove('opened');
+                hamburgerArea.style.transform = 'translateX(-100%)';
+                hamburgerArea.style.visibility = 'hidden';
+                hamburgerArea.style.opacity = '0';
+              }
+              if (bodyOverlay) {
+                bodyOverlay.classList.remove('opened');
+              }
               document.body.classList.remove('overflow-hidden');
             });
           }
           
           if (bodyOverlay) {
-            bodyOverlay.addEventListener('click', () => {
-              if (mobileMenuBar) mobileMenuBar.classList.remove('menu-bar-toggeled');
-              if (hamburgerArea) hamburgerArea.classList.remove('opened');
-              if (bodyOverlay) bodyOverlay.classList.remove('opened');
+            bodyOverlay.addEventListener('click', (e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              
+              if (toggleElement) toggleElement.classList.remove('menu-bar-toggeled');
+              if (hamburgerArea) {
+                hamburgerArea.classList.remove('opened');
+                hamburgerArea.style.transform = 'translateX(-100%)';
+                hamburgerArea.style.visibility = 'hidden';
+                hamburgerArea.style.opacity = '0';
+              }
+              if (bodyOverlay) {
+                bodyOverlay.classList.remove('opened');
+              }
               document.body.classList.remove('overflow-hidden');
             });
           }
+          
+          // Add escape key handler
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+              if (toggleElement) toggleElement.classList.remove('menu-bar-toggeled');
+              if (hamburgerArea && hamburgerArea.classList.contains('opened')) {
+                hamburgerArea.classList.remove('opened');
+                hamburgerArea.style.transform = 'translateX(-100%)';
+                hamburgerArea.style.visibility = 'hidden';
+                hamburgerArea.style.opacity = '0';
+              }
+              if (bodyOverlay) {
+                bodyOverlay.classList.remove('opened');
+              }
+              document.body.classList.remove('overflow-hidden');
+            }
+          });
         };
         
         // Initialize mobile menu
