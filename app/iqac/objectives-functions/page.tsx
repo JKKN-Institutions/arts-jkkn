@@ -1,4 +1,4 @@
-﻿import Header from '../../components/Header';
+import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import OffcanvasMenu from '../../components/OffcanvasMenu';
 
@@ -68,7 +68,7 @@ export default function ObjectivesFunctionsPage() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
+            <div className="top-space-65"></div>
 
 
                         {/* start: Banner Section */}

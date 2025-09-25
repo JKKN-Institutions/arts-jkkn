@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import OffcanvasMenu from '../../components/OffcanvasMenu';
@@ -24,7 +25,7 @@ export default function DepartmentOfBusinessAdministration() {
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main id="primary" className="site-main">
-                        <div className="top-space-15"></div>
+                        <div className="top-space-65"></div>
                         {/* start: Banner Section */}
                         <section className="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
                             <div className="container">
@@ -69,10 +70,10 @@ export default function DepartmentOfBusinessAdministration() {
                                 </div>
                             </div>
                             <div className="bg-shape-1">
-                                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-2">
-                                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                         </section>
                         {/* end: Banner Section */}
@@ -182,7 +183,7 @@ export default function DepartmentOfBusinessAdministration() {
                                     <div className="col-12 col-lg-5 d-block d-md-none d-lg-block">
                                         <div className="about-img-area h10-about-banner wow bounceInLeft" data-wow-delay=".3s">
                                             <div className="about-img overflow-hidden">
-                                                <img data-speed=".8" src="/assets/images/img/department-of-computer-science.png" alt="" style={{ width: '100%', height: 'auto', maxHeight: '320px', objectFit: 'cover' }} />
+                                                <Image data-speed=".8" src="/assets/images/img/department-of-computer-science.png" alt="Business Administration Department" width={500} height={320} style={{ width: '100%', height: 'auto', maxHeight: '320px', objectFit: 'cover' }} />
                                             </div>
                                         </div>
                                     </div>
@@ -197,7 +198,7 @@ export default function DepartmentOfBusinessAdministration() {
                                                 <div className="col-12 col-md-6 d-none d-md-block d-lg-none">
                                                     <div className="about-img-area h10-about-banner wow bounceInLeft" data-wow-delay=".3s">
                                                         <div className="about-img">
-                                                            <img src="/assets/images/img/department-of-computer-science.png" alt="" style={{ width: '100%', height: 'auto', maxHeight: '300px', objectFit: 'cover' }} />
+                                                            <Image src="/assets/images/img/department-of-computer-science.png" alt="Business Administration Department" width={500} height={300} style={{ width: '100%', height: 'auto', maxHeight: '300px', objectFit: 'cover' }} />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -206,15 +207,15 @@ export default function DepartmentOfBusinessAdministration() {
                                                         <div className="customers-box style-3 h10-about-clients wow fadeInUp" data-wow-delay=".4s">
                                                             <div className="customers">
                                                                 <ul>
-                                                                    <li className="wow fadeInLeft" data-wow-delay=".2s"><img src="/assets/images/testimonial/client-1.webp" alt="" /></li>
-                                                                    <li className="wow fadeInLeft" data-wow-delay=".3s"><img src="/assets/images/testimonial/client-2.webp" alt="" /></li>
-                                                                    <li className="wow fadeInLeft" data-wow-delay=".4s"><img src="/assets/images/testimonial/client-3.webp" alt="" /></li>
+                                                                    <li className="wow fadeInLeft" data-wow-delay=".2s"><Image src="/assets/images/testimonial/client-1.webp" alt="Student testimonial" width={50} height={50} /></li>
+                                                                    <li className="wow fadeInLeft" data-wow-delay=".3s"><Image src="/assets/images/testimonial/client-2.webp" alt="Student testimonial" width={50} height={50} /></li>
+                                                                    <li className="wow fadeInLeft" data-wow-delay=".4s"><Image src="/assets/images/testimonial/client-3.webp" alt="Student testimonial" width={50} height={50} /></li>
                                                                     <li className="wow fadeInLeft" data-wow-delay=".5s"><span><i className="fas fa-plus"></i></span></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
 
-                                                        <p className="desc wow fadeInUp" data-wow-delay=".4s">The Department of Business Administration is a dynamic center for nurturing future business leaders and entrepreneurs. Focused on providing a comprehensive understanding of management principles and real-world business practices, the department equips students with the knowledge, skills, and confidence to excel in today's competitive global marketplace.</p>
+                                                        <p className="desc wow fadeInUp" data-wow-delay=".4s">The Department of Business Administration is a dynamic center for nurturing future business leaders and entrepreneurs. Focused on providing a comprehensive understanding of management principles and real-world business practices, the department equips students with the knowledge, skills, and confidence to excel in today&apos;s competitive global marketplace.</p>
 
                                                         <p className="desc wow fadeInUp" data-wow-delay=".5s">Our BBA program offers a robust curriculum designed to cover core areas of business and management, including principles of management, financial accounting and economics, marketing management, human resource management, business analytics and information systems, and strategic management and entrepreneurship.</p>
 
@@ -299,13 +300,13 @@ export default function DepartmentOfBusinessAdministration() {
                                 </div>
                             </div>
                             <div className="bg-shape-1">
-                                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-2">
-                                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-3">
-                                <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+                                <Image src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="Decorative blur effect" width={100} height={100} />
                             </div>
                         </section>
                         {/* end: Curriculum Section */}
@@ -338,7 +339,7 @@ export default function DepartmentOfBusinessAdministration() {
                                                         <div className="blog-date-wrapper">
                                                             <span className="blog-author">Duration: 2 Years</span>
                                                         </div>
-                                                        <span className="categories">Master's Degree</span>
+                                                        <span className="categories">Master&apos;s Degree</span>
                                                     </div>
                                                     <div className="title-area">
                                                         <h3 className="title">Career Foundation</h3>
@@ -580,13 +581,13 @@ export default function DepartmentOfBusinessAdministration() {
                                 </div>
                             </div>
                             <div className="bg-shape-1">
-                                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-2">
-                                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-3">
-                                <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+                                <Image src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="Decorative blur effect" width={100} height={100} />
                             </div>
                         </section>
                         {/* end: Activities & Initiatives Section */}
@@ -756,7 +757,7 @@ export default function DepartmentOfBusinessAdministration() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".1s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/bba-sf/Mrs.M.Umarani.png" alt="" />
+                                                    <Image src="/assets/images/team/bba-sf/Mrs.M.Umarani.png" alt="Mrs. M. Umarani - Assistant Professor & HOD" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -775,7 +776,7 @@ export default function DepartmentOfBusinessAdministration() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".2s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/bba-sf/Mrs.P.Mathiananthi.png" alt="" />
+                                                    <Image src="/assets/images/team/bba-sf/Mrs.P.Mathiananthi.png" alt="Mrs. P. Mathiananthi - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -794,7 +795,7 @@ export default function DepartmentOfBusinessAdministration() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".3s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/bba-sf/Mr.A.K.Prithiviraja.png" alt="" />
+                                                    <Image src="/assets/images/team/bba-sf/Mr.A.K.Prithiviraja.png" alt="Mr. A. K. Prithiviraja - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -813,7 +814,7 @@ export default function DepartmentOfBusinessAdministration() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".4s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/bba-sf/Mr.A.Jegadishkumar.png" alt="" />
+                                                    <Image src="/assets/images/team/bba-sf/Mr.A.Jegadishkumar.png" alt="Mr. A. Jegadishkumar - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -831,10 +832,10 @@ export default function DepartmentOfBusinessAdministration() {
                                 </div>
                             </div>
                             <div className="bg-shape-1">
-                                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-2">
-                                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                         </section>
                         {/* end: Faculty Section */}

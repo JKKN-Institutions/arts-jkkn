@@ -1,4 +1,4 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
 import Header from '../components/Header';
 import OffcanvasMenu from '../components/OffcanvasMenu';
 import Footer from '../components/Footer';
@@ -12,7 +12,7 @@ export default function Portfolio() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="space-for-header"></div>
+            <div className="top-space-65"></div>
             
             {/* start: Breadcrumb Section */}
             <section className="tj-page-header section-gap-x" data-bg-image="/assets/images/bg/pheader-bg.webp">
@@ -163,7 +163,7 @@ export default function Portfolio() {
                   <div className="col-12">
                     <div className="cta-content text-center">
                       <h2 className="cta-title">Have a Project in Mind?</h2>
-                      <p className="cta-desc">Let's collaborate to create something amazing together. Our team is ready to bring your vision to life.</p>
+                      <p className="cta-desc">Let&apos;s collaborate to create something amazing together. Our team is ready to bring your vision to life.</p>
                       <div className="cta-btn">
                         <Link className="tj-primary-btn" href="#">
                           <span className="btn-text"><span>Start Your Project</span></span>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import OffcanvasMenu from '../../components/OffcanvasMenu';
@@ -24,7 +25,7 @@ export default function DepartmentOfCommerce() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
+            <div className="top-space-65"></div>
             {/* start: Banner Section */}
             <section className="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
               <div className="container">
@@ -69,10 +70,10 @@ export default function DepartmentOfCommerce() {
                 </div>
               </div>
               <div className="bg-shape-1">
-                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                <Image src="/assets/images/shape/pattern-2.svg" alt="" width={100} height={100} />
               </div>
               <div className="bg-shape-2">
-                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                <Image src="/assets/images/shape/pattern-3.svg" alt="" width={100} height={100} />
               </div>
             </section>
             {/* end: Banner Section */}
@@ -178,7 +179,7 @@ export default function DepartmentOfCommerce() {
                   <div className="col-12 col-lg-5 d-block d-md-none d-lg-block">
                     <div className="about-img-area h10-about-banner wow bounceInLeft" data-wow-delay=".3s">
                       <div className="about-img overflow-hidden">
-                        <img data-speed=".8" src="/assets/images/img/department-of-computer-science.png" alt="" style={{width: '100%', height: 'auto', maxHeight: '400px', objectFit: 'cover'}} />
+                        <Image data-speed=".8" src="/assets/images/img/department-of-computer-science.png" alt="" width={500} height={400} style={{width: '100%', height: 'auto', maxHeight: '400px', objectFit: 'cover'}} />
                       </div>
                     </div>
                   </div>
@@ -193,7 +194,7 @@ export default function DepartmentOfCommerce() {
                         <div className="col-12 col-md-6 d-none d-md-block d-lg-none">
                           <div className="about-img-area h10-about-banner wow bounceInLeft" data-wow-delay=".3s">
                             <div className="about-img">
-                              <img src="/assets/images/img/department-of-computer-science.png" alt="" style={{width: '100%', height: 'auto', maxHeight: '300px', objectFit: 'cover'}} />
+                              <Image src="/assets/images/img/department-of-computer-science.png" alt="" width={500} height={300} style={{width: '100%', height: 'auto', maxHeight: '300px', objectFit: 'cover'}} />
                             </div>
                           </div>
                         </div>
@@ -202,9 +203,9 @@ export default function DepartmentOfCommerce() {
                             <div className="customers-box style-3 h10-about-clients wow fadeInUp" data-wow-delay=".4s">
                               <div className="customers">
                                 <ul>
-                                  <li className="wow fadeInLeft" data-wow-delay=".2s"><img src="/assets/images/testimonial/client-1.webp" alt="" /></li>
-                                  <li className="wow fadeInLeft" data-wow-delay=".3s"><img src="/assets/images/testimonial/client-2.webp" alt="" /></li>
-                                  <li className="wow fadeInLeft" data-wow-delay=".4s"><img src="/assets/images/testimonial/client-3.webp" alt="" /></li>
+                                  <li className="wow fadeInLeft" data-wow-delay=".2s"><Image src="/assets/images/testimonial/client-1.webp" alt="" width={50} height={50} /></li>
+                                  <li className="wow fadeInLeft" data-wow-delay=".3s"><Image src="/assets/images/testimonial/client-2.webp" alt="" width={50} height={50} /></li>
+                                  <li className="wow fadeInLeft" data-wow-delay=".4s"><Image src="/assets/images/testimonial/client-3.webp" alt="" width={50} height={50} /></li>
                                   <li className="wow fadeInLeft" data-wow-delay=".5s"><span><i className="fas fa-plus"></i></span></li>
                                 </ul>
                               </div>
@@ -295,13 +296,13 @@ export default function DepartmentOfCommerce() {
                 </div>
               </div>
               <div className="bg-shape-1">
-                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                <Image src="/assets/images/shape/pattern-2.svg" alt="" width={100} height={100} />
               </div>
               <div className="bg-shape-2">
-                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                <Image src="/assets/images/shape/pattern-3.svg" alt="" width={100} height={100} />
               </div>
               <div className="bg-shape-3">
-                <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+                <Image src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" width={100} height={100} />
               </div>
             </section>
             {/* end: Curriculum Section */}
@@ -334,7 +335,7 @@ export default function DepartmentOfCommerce() {
                             <div className="blog-date-wrapper">
                               <span className="blog-author">Duration: 2 Years</span>
                             </div>
-                            <span className="categories">Master's Degree</span>
+                            <span className="categories">Master&apos;s Degree</span>
                           </div>
                           <div className="title-area">
                             <h3 className="title">Career Foundation</h3>
@@ -566,13 +567,13 @@ export default function DepartmentOfCommerce() {
                 </div>
               </div>
               <div className="bg-shape-1">
-                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                <Image src="/assets/images/shape/pattern-2.svg" alt="" width={100} height={100} />
               </div>
               <div className="bg-shape-2">
-                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                <Image src="/assets/images/shape/pattern-3.svg" alt="" width={100} height={100} />
               </div>
               <div className="bg-shape-3">
-                <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+                <Image src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" width={100} height={100} />
               </div>
             </section>
             {/* end: Activities & Initiatives Section */}
@@ -731,7 +732,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay=".2s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Mrs.M.S.Punithamalar.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Mrs.M.S.Punithamalar.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -750,7 +751,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay=".3s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Mrs.S.Saranya.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Mrs.S.Saranya.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -769,7 +770,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay=".4s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Mrs.T.Kokila.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Mrs.T.Kokila.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -788,7 +789,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay=".5s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Mrs.P.Manimegalai.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Mrs.P.Manimegalai.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -807,7 +808,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay=".6s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Ms.G.Buvaneswari.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Ms.G.Buvaneswari.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -826,7 +827,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay=".7s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Mrs.N.Lingameena.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Mrs.N.Lingameena.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -845,7 +846,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay=".8s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Mr.A.Jegadishkumar.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Mr.A.Jegadishkumar.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -864,7 +865,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay=".9s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Ms.C.Agalya.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Ms.C.Agalya.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -883,7 +884,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay="1.0s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Mrs.M.Sangeetha.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Mrs.M.Sangeetha.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -902,7 +903,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay="1.1s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Mr.S.Govindharaj.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Mr.S.Govindharaj.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -921,7 +922,7 @@ export default function DepartmentOfCommerce() {
                     <div className="team-item wow fadeInRightBig" data-wow-delay="1.2s">
                       <div className="team-img">
                         <div className="team-img-inner">
-                          <img src="/assets/images/team/commerce-sf/Dr.M.Palanisamy.png" alt="" />
+                          <Image src="/assets/images/team/commerce-sf/Dr.M.Palanisamy.png" alt="" width={300} height={400} />
                         </div>
                         <div className="social-links">
                           <ul>
@@ -939,10 +940,10 @@ export default function DepartmentOfCommerce() {
                 </div>
               </div>
               <div className="bg-shape-1">
-                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                <Image src="/assets/images/shape/pattern-2.svg" alt="" width={100} height={100} />
               </div>
               <div className="bg-shape-2">
-                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                <Image src="/assets/images/shape/pattern-3.svg" alt="" width={100} height={100} />
               </div>
             </section>
             {/* end: Faculty Section */}

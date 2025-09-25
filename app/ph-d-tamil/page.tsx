@@ -15,7 +15,7 @@ export default function PhDTamil() {
       <div id="smooth-wrapper" className={notoTamil.className}>
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
+            <div className="top-space-65"></div>
             
             {/* start: Banner Section */}
             <section className="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper pb-5">
@@ -458,7 +458,7 @@ export default function PhDTamil() {
                       </div>
                       <div className="achievement-item" style={{marginBottom: '20px', padding: '20px', backgroundColor: '#f8f9fa', borderRadius: '10px'}}>
                         <h5 style={{color: '#1e8a8a', marginBottom: '10px'}}>National Seminar Recognition</h5>
-                        <p style={{margin: 0}}>Dr. K.Essaki received the Best Paper Presentation Award at the National Seminar conducted by KSR Women's Arts and Science College on 12.12.2017</p>
+                        <p style={{margin: 0}}>Dr. K.Essaki received the Best Paper Presentation Award at the National Seminar conducted by KSR Women&apos;s Arts and Science College on 12.12.2017</p>
                       </div>
                     </div>
                   </div>

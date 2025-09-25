@@ -15,7 +15,7 @@ export default function BScPhysicsAllied() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="space-for-header"></div>
+            <div className="top-space-65"></div>
             <br/>
             {/* start: Banner Section */}
             <section className="tj-banner-section section-gap-x">

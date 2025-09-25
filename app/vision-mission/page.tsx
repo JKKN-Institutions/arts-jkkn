@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '../components/Header';
 import OffcanvasMenu from '../components/OffcanvasMenu';
 import Footer from '../components/Footer';
@@ -12,14 +13,14 @@ export default function VisionMission() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
+            <div className="top-space-65"></div>
 
             {/* start: Banner Section */}
             <section className="tj-banner-section h6-hero section-gap-x">
               <div className="banner-area">
                 <div className="banner-left-box">
                   <div className="banner-content">
-                    <h1 className="banner-title title-anim">Our Vision & Mission: Shaping Tomorrow's Excellence Today.
+                    <h1 className="banner-title title-anim">Our Vision & Mission: Shaping Tomorrow&apos;s Excellence Today.
                     </h1>
                     <div className="btn-area wow fadeInUp" data-wow-delay=".8s">
                       <Link className="tj-primary-btn" href="#">
@@ -30,13 +31,13 @@ export default function VisionMission() {
 
                     
                     <div className="bg-shape-2">
-                      <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                      <Image src="/assets/images/shape/pattern-3.svg" alt="" width={100} height={100} />
                     </div>
                   </div>
                 </div>
                 <div className="banner-right-box">
                   <div className="banner-img wow fadeInUp" data-wow-delay=".3s">
-                    <img data-speed=".8" src="/assets/images/img/Campus-Life.png" alt="" />
+                    <Image data-speed=".8" src="/assets/images/img/Campus-Life.png" alt="" width={600} height={400} />
                   </div>
                 </div>
               </div>
@@ -64,7 +65,7 @@ export default function VisionMission() {
                           <i className="fas fa-lightbulb fa-sm"></i>
                         </div>
                         <h4 className="title">Our Vision</h4>
-                        <p className="desc">To be a globally recognized institution of higher learning that cultivates innovative leaders, fosters academic excellence, and creates transformative solutions for society's challenges.</p>
+                        <p className="desc">To be a globally recognized institution of higher learning that cultivates innovative leaders, fosters academic excellence, and creates transformative solutions for society&apos;s challenges.</p>
                       </div>
                     </div>
                   </div>

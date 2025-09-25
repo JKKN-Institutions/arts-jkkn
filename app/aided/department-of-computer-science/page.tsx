@@ -1,4 +1,4 @@
-﻿import Header from '../../components/Header';
+import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import OffcanvasMenu from '../../components/OffcanvasMenu';
 
@@ -24,7 +24,7 @@ export default function DepartmentOfComputerScience() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
+            <div className="top-space-65"></div>
             {/* start: Banner Section */}
             <section className="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
               <div className="container">
@@ -217,7 +217,7 @@ export default function DepartmentOfComputerScience() {
                             
                             <p className="desc wow fadeInUp" data-wow-delay=".5s">Here, we blend rigorous academic programs, with practical, hands-on experience, underpinned by our faculty's rich expertise and our state-of-the art facilities. Our curriculum is carefully designed to cover a spectrum of areas like artificial intelligence, cybersecurity, and software development, ensuring that students are not just ready for the current tech industry but are also well-prepared to lead its future.</p>
                             
-                            <p className="desc wow fadeInUp" data-wow-delay=".6s">Beyond the classroom, our strong industry connections provide valuable internship and career opportunities, while our focus on research and innovation empowers students to contribute to ground breaking developments in the field. In our college, we don't just teach computer science; we foster a community where the next generation of tech leaders, innovators, and thinkers are born.</p>
+                            <p className="desc wow fadeInUp" data-wow-delay=".6s">Beyond the classroom, our strong industry connections provide valuable internship and career opportunities, while our focus on research and innovation empowers students to contribute to ground breaking developments in the field. In our college, we don&apos;t just teach computer science; we foster a community where the next generation of tech leaders, innovators, and thinkers are born.</p>
                             
                             <div className="h9-about-funfact h10-about-funfact">
                               <div className="countup-item">
@@ -337,7 +337,7 @@ export default function DepartmentOfComputerScience() {
                             <div className="blog-date-wrapper">
                               <span className="blog-author">Duration: 2 Years</span>
                             </div>
-                            <span className="categories">Master's Degree</span>
+                            <span className="categories">Master&apos;s Degree</span>
                           </div>
                           <div className="title-area">
                             <h3 className="title">Career Foundation</h3>

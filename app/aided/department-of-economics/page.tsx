@@ -25,7 +25,7 @@ export default function DepartmentOfEconomics() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
+            <div className="top-space-65"></div>
             {/* start: Banner Section */}
             <section className="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
               <div className="container">
@@ -218,7 +218,7 @@ export default function DepartmentOfEconomics() {
                             
                             <p className="desc wow fadeInUp" data-wow-delay=".5s">The department is committed to providing quality education and research in Economics, focusing on igniting young minds for overall development. Our curriculum is designed to offer Economics as an Allied Course for Commerce and History students, providing them with a strong foundation in economic principles and analysis.</p>
                             
-                            <p className="desc wow fadeInUp" data-wow-delay=".6s">Through our dedicated faculty and comprehensive approach to education, we aim to develop critical thinking skills and economic awareness among students, preparing them to understand and analyze complex economic issues in today's world.</p>
+                            <p className="desc wow fadeInUp" data-wow-delay=".6s">Through our dedicated faculty and comprehensive approach to education, we aim to develop critical thinking skills and economic awareness among students, preparing them to understand and analyze complex economic issues in today&apos;s world.</p>
                             
                             <div className="h9-about-funfact h10-about-funfact">
                               <div className="countup-item">

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
@@ -10,7 +11,7 @@ export default function Header() {
               {/* site logo */}
               <div className="site_logo flex-shrink-0">
                 <Link className="logo" href="/">
-                  <img src="/assets/images/logos/logo-2.png" alt="College Logo" style={{ height: '80px', width: 'auto' }} />
+                  <Image src="/assets/images/logos/logo-2.png" alt="College Logo" width={80} height={80} style={{ height: '80px', width: 'auto' }} />
                 </Link>
               </div>
 
@@ -396,9 +397,12 @@ export default function Header() {
 
               {/* menu bar */}
               <div className="menu_bar mobile_menu_bar d-lg-none">
-                <span></span>
-                <span></span>
-                <span></span>
+                <button type="button">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
               </div>
             </div>
           </div>

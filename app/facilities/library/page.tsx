@@ -14,7 +14,7 @@ export default function LibraryPage() {
         <div id="smooth-content">
           <main id="primary" className="site-main">
             <br />
-            <div className="space-for-header"></div>
+            <div className="top-space-65"></div>
             {/* start: Breadcrumb Section */}
             <section className="tj-page-header section-gap-x" data-bg-image="/assets/images/bg/pheader-bg.webp">
               <div className="container">

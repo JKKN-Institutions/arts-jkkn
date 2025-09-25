@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import OffcanvasMenu from '../../components/OffcanvasMenu';
@@ -24,7 +25,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main id="primary" className="site-main">
-                        <div className="top-space-15"></div>
+                        <div className="top-space-65"></div>
                         {/* start: Banner Section */}
                         <section className="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
                             <div className="container">
@@ -69,10 +70,10 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                 </div>
                             </div>
                             <div className="bg-shape-1">
-                                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-2">
-                                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                         </section>
                         {/* end: Banner Section */}
@@ -182,7 +183,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                     <div className="col-12 col-lg-5 d-block d-md-none d-lg-block">
                                         <div className="about-img-area h10-about-banner wow bounceInLeft" data-wow-delay=".3s">
                                             <div className="about-img overflow-hidden">
-                                                <img data-speed=".8" src="/assets/images/img/department-of-computer-science.png" alt="" style={{ width: '100%', height: 'auto', maxHeight: '320px', objectFit: 'cover' }} />
+                                                <Image data-speed=".8" src="/assets/images/img/department-of-computer-science.png" alt="AI and Data Science Department" width={500} height={320} style={{ width: '100%', height: 'auto', maxHeight: '320px', objectFit: 'cover' }} />
                                             </div>
                                         </div>
                                     </div>
@@ -197,7 +198,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                                 <div className="col-12 col-md-6 d-none d-md-block d-lg-none">
                                                     <div className="about-img-area h10-about-banner wow bounceInLeft" data-wow-delay=".3s">
                                                         <div className="about-img">
-                                                            <img src="/assets/images/img/department-of-computer-science.png" alt="" style={{ width: '100%', height: 'auto', maxHeight: '300px', objectFit: 'cover' }} />
+                                                            <Image src="/assets/images/img/department-of-computer-science.png" alt="AI and Data Science Department" width={500} height={300} style={{ width: '100%', height: 'auto', maxHeight: '300px', objectFit: 'cover' }} />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -206,9 +207,9 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                                         <div className="customers-box style-3 h10-about-clients wow fadeInUp" data-wow-delay=".4s">
                                                             <div className="customers">
                                                                 <ul>
-                                                                    <li className="wow fadeInLeft" data-wow-delay=".2s"><img src="/assets/images/testimonial/client-1.webp" alt="" /></li>
-                                                                    <li className="wow fadeInLeft" data-wow-delay=".3s"><img src="/assets/images/testimonial/client-2.webp" alt="" /></li>
-                                                                    <li className="wow fadeInLeft" data-wow-delay=".4s"><img src="/assets/images/testimonial/client-3.webp" alt="" /></li>
+                                                                    <li className="wow fadeInLeft" data-wow-delay=".2s"><Image src="/assets/images/testimonial/client-1.webp" alt="Student testimonial" width={50} height={50} /></li>
+                                                                    <li className="wow fadeInLeft" data-wow-delay=".3s"><Image src="/assets/images/testimonial/client-2.webp" alt="Student testimonial" width={50} height={50} /></li>
+                                                                    <li className="wow fadeInLeft" data-wow-delay=".4s"><Image src="/assets/images/testimonial/client-3.webp" alt="Student testimonial" width={50} height={50} /></li>
                                                                     <li className="wow fadeInLeft" data-wow-delay=".5s"><span><i className="fas fa-plus"></i></span></li>
                                                                 </ul>
                                                             </div>
@@ -299,13 +300,13 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                 </div>
                             </div>
                             <div className="bg-shape-1">
-                                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-2">
-                                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-3">
-                                <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+                                <Image src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="Decorative blur effect" width={100} height={100} />
                             </div>
                         </section>
                         {/* end: Curriculum Section */}
@@ -338,7 +339,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                                         <div className="blog-date-wrapper">
                                                             <span className="blog-author">Duration: 2 Years</span>
                                                         </div>
-                                                        <span className="categories">Master's Degree</span>
+                                                        <span className="categories">Master&apos;s Degree</span>
                                                     </div>
                                                     <div className="title-area">
                                                         <h3 className="title">Career Foundation</h3>
@@ -580,13 +581,13 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                 </div>
                             </div>
                             <div className="bg-shape-1">
-                                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-2">
-                                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-3">
-                                <img src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="" />
+                                <Image src="/assets/images/shape/h7-testimonial-shape-blur.svg" alt="Decorative blur effect" width={100} height={100} />
                             </div>
                         </section>
                         {/* end: Activities & Initiatives Section */}
@@ -756,7 +757,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".1s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mr.T.Sathes kumar.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mr.T.Sathes kumar.png" alt="Mr. T. Sathes Kumar - Assistant Professor & HOD" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -775,7 +776,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".2s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/DR.M.GOMATHI.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/DR.M.GOMATHI.png" alt="Dr. M. Gomathi - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -794,7 +795,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".3s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mr.B.N.Dhanasekaran.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mr.B.N.Dhanasekaran.png" alt="Mr. B. N. Dhanasekaran - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -813,7 +814,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".4s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mrs.N.Umadevi.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mrs.N.Umadevi.png" alt="Mrs. N. Umadevi - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -832,7 +833,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".5s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mr.S.Balaji.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mr.S.Balaji.png" alt="Mr. S. Balaji - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -851,7 +852,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".6s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mrs.S.Priyanga.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mrs.S.Priyanga.png" alt="Mrs. S. Priyanga - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -870,7 +871,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".7s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Ms.K.Epshiba.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Ms.K.Epshiba.png" alt="Ms. K. Epshiba - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -889,7 +890,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".8s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mrs.P.Priyanka.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mrs.P.Priyanka.png" alt="Mrs. P. Priyanka - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -908,7 +909,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay=".9s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Dr.A.Kamalaveni.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Dr.A.Kamalaveni.png" alt="Dr. A. Kamalaveni - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -927,7 +928,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay="1.0s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mrs.S.Brintha.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mrs.S.Brintha.png" alt="Mrs. S. Brintha - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -946,7 +947,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay="1.1s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mrs.P.Kowsalya.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mrs.P.Kowsalya.png" alt="Mrs. P. Kowsalya - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -965,7 +966,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay="1.2s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mrs.J.Devi.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mrs.J.Devi.png" alt="Mrs. J. Devi - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -984,7 +985,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay="1.3s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mrs.A.Vennila.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mrs.A.Vennila.png" alt="Mrs. A. Vennila - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -1003,7 +1004,7 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                         <div className="team-item wow fadeInRightBig" data-wow-delay="1.4s">
                                             <div className="team-img">
                                                 <div className="team-img-inner">
-                                                    <img src="/assets/images/team/ai-ds-sf/Mr.A.Dinesh.png" alt="" />
+                                                    <Image src="/assets/images/team/ai-ds-sf/Mr.A.Dinesh.png" alt="Mr. A. Dinesh - Assistant Professor" width={300} height={400} />
                                                 </div>
                                                 <div className="social-links">
                                                     <ul>
@@ -1021,10 +1022,10 @@ export default function DepartmentOfArtificialIntelligenceAndDataScience() {
                                 </div>
                             </div>
                             <div className="bg-shape-1">
-                                <img src="/assets/images/shape/pattern-2.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                             <div className="bg-shape-2">
-                                <img src="/assets/images/shape/pattern-3.svg" alt="" />
+                                <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
                             </div>
                         </section>
                         {/* end: Faculty Section */}

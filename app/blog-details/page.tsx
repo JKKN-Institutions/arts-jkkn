@@ -438,7 +438,7 @@ export default function BlogDetails() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="space-for-header"></div>
+            <div className="top-space-65"></div>
             
             <Suspense fallback={<div>Loading...</div>}>
               <BlogDetailsContent />

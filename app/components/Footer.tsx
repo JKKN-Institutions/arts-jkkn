@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -11,9 +12,11 @@ export default function Footer() {
               <div className="footer-widget footer-col-1 wow fadeInUp" data-wow-delay=".1s">
                 <div className="footer-logo">
                   <Link href="/">
-                    <img 
+                    <Image 
                       src="/assets/images/logos/logo-2.png" 
                       alt="JKKN College of Arts and Science Logo" 
+                      width={200}
+                      height={100}
                       style={{ width: '200px', height: 'auto', maxWidth: 'none', marginBottom: '20px' }}
                     />
                   </Link>
@@ -128,10 +131,10 @@ export default function Footer() {
         </div>
       </div>
       <div className="bg-shape-1">
-        <img src="/assets/images/shape/pattern-2.svg" alt="" />
+        <Image src="/assets/images/shape/pattern-2.svg" alt="Decorative pattern" width={100} height={100} />
       </div>
       <div className="bg-shape-2">
-        <img src="/assets/images/shape/pattern-3.svg" alt="" />
+        <Image src="/assets/images/shape/pattern-3.svg" alt="Decorative pattern" width={100} height={100} />
       </div>
     </footer>
   );

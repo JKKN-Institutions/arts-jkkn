@@ -12,8 +12,7 @@ export default function OurCollege() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
-            <br/><br/><br/><br/><br/>
+            <div className="top-space-65"></div>
            {/* start: Cta Section */}
            <section className="h9-cta-section section-gap-x">
               <div className="cta-bg" data-bg-image="/assets/images/img/Campus-Life.png"></div>

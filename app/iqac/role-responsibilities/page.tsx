@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -120,7 +120,7 @@ export default function RoleResponsibilitiesPage() {
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main id="primary" className="site-main">
-                        <div className="top-space-15"></div>
+                        <div className="top-space-65"></div>
 
 
                         {/* start: Banner Section */}

@@ -20,6 +20,45 @@ export default function ClientScripts() {
         // Ensure body doesn't get unexpected styles
         document.body.removeAttribute('style');
         
+        // Initialize mobile menu functionality
+        const initializeMobileMenu = () => {
+          // Mobile menu toggle functionality
+          const mobileMenuBar = document.querySelector('.mobile_menu_bar') as HTMLElement;
+          const hamburgerArea = document.querySelector('.hamburger-area') as HTMLElement;
+          const bodyOverlay = document.querySelector('.body-overlay') as HTMLElement;
+          const hamburgerCloseBtn = document.querySelector('.hamburger_close_btn') as HTMLElement;
+          
+          if (mobileMenuBar) {
+            mobileMenuBar.addEventListener('click', () => {
+              mobileMenuBar.classList.toggle('menu-bar-toggeled');
+              if (hamburgerArea) hamburgerArea.classList.add('opened');
+              if (bodyOverlay) bodyOverlay.classList.add('opened');
+              document.body.classList.toggle('overflow-hidden');
+            });
+          }
+          
+          if (hamburgerCloseBtn) {
+            hamburgerCloseBtn.addEventListener('click', () => {
+              if (mobileMenuBar) mobileMenuBar.classList.remove('menu-bar-toggeled');
+              if (hamburgerArea) hamburgerArea.classList.remove('opened');
+              if (bodyOverlay) bodyOverlay.classList.remove('opened');
+              document.body.classList.remove('overflow-hidden');
+            });
+          }
+          
+          if (bodyOverlay) {
+            bodyOverlay.addEventListener('click', () => {
+              if (mobileMenuBar) mobileMenuBar.classList.remove('menu-bar-toggeled');
+              if (hamburgerArea) hamburgerArea.classList.remove('opened');
+              if (bodyOverlay) bodyOverlay.classList.remove('opened');
+              document.body.classList.remove('overflow-hidden');
+            });
+          }
+        };
+        
+        // Initialize mobile menu
+        initializeMobileMenu();
+        
         // Initialize animations manually if main.js hasn't done it
         if (typeof window !== 'undefined') {
           // Initialize meanmenu as fallback

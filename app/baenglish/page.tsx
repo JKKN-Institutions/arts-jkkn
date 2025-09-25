@@ -12,7 +12,7 @@ export default function BAEnglish() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="space-for-header"></div>
+            <div className="top-space-65"></div>
             <br/>
             {/* start: Breadcrumb Section */}
             <section className="tj-page-header section-gap-x" data-bg-image="/assets/images/bg/pheader-bg.webp">

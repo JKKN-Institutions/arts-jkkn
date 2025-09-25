@@ -68,7 +68,7 @@ export default function AuditoriumPage() {
             <div id="smooth-wrapper">
                 <div id="smooth-content">
                     <main id="primary" className="site-main">
-                        <div className="top-space-15"></div>
+                        <div className="top-space-65"></div>
 
 
                         {/* start: About Section */}

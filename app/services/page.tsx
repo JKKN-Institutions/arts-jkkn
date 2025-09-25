@@ -12,7 +12,7 @@ export default function Services() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="space-for-header"></div>
+            <div className="top-space-65"></div>
             
             {/* start: Breadcrumb Section */}
             <section className="tj-page-header section-gap-x" data-bg-image="/assets/images/bg/pheader-bg.webp">
@@ -181,7 +181,7 @@ export default function Services() {
                   <div className="col-12">
                     <div className="cta-content text-center">
                       <h2 className="cta-title">Ready to Transform Your Business?</h2>
-                      <p className="cta-desc">Let's discuss how our services can help you achieve your business goals and drive sustainable growth.</p>
+                      <p className="cta-desc">Let&apos;s discuss how our services can help you achieve your business goals and drive sustainable growth.</p>
                       <div className="cta-btn">
                         <Link className="tj-primary-btn" href="#">
                           <span className="btn-text"><span>Get Started Today</span></span>

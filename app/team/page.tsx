@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '../components/Header';
 import OffcanvasMenu from '../components/OffcanvasMenu';
 import Footer from '../components/Footer';
@@ -12,7 +13,7 @@ export default function Team() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="space-for-header"></div>
+            <div className="top-space-65"></div>
             
             {/* start: Breadcrumb Section */}
             <section className="tj-page-header section-gap-x" data-bg-image="/assets/images/bg/pheader-bg.webp">
@@ -52,7 +53,7 @@ export default function Team() {
                   <div className="col-lg-3 col-md-6">
                     <div className="team-item wow fadeInUp" data-wow-delay=".1s">
                       <div className="team-image">
-                        <img src="/assets/images/team/team-1.webp" alt="Team Member" />
+                        <Image src="/assets/images/team/team-1.webp" alt="Team Member" width={300} height={400} />
                       </div>
                       <div className="team-content">
                         <h4 className="name">John Smith</h4>
@@ -68,7 +69,7 @@ export default function Team() {
                   <div className="col-lg-3 col-md-6">
                     <div className="team-item wow fadeInUp" data-wow-delay=".3s">
                       <div className="team-image">
-                        <img src="/assets/images/team/team-2.webp" alt="Team Member" />
+                        <Image src="/assets/images/team/team-2.webp" alt="Team Member" width={300} height={400} />
                       </div>
                       <div className="team-content">
                         <h4 className="name">Sarah Johnson</h4>
@@ -84,7 +85,7 @@ export default function Team() {
                   <div className="col-lg-3 col-md-6">
                     <div className="team-item wow fadeInUp" data-wow-delay=".5s">
                       <div className="team-image">
-                        <img src="/assets/images/team/team-3.webp" alt="Team Member" />
+                        <Image src="/assets/images/team/team-3.webp" alt="Team Member" width={300} height={400} />
                       </div>
                       <div className="team-content">
                         <h4 className="name">Michael Brown</h4>
@@ -100,7 +101,7 @@ export default function Team() {
                   <div className="col-lg-3 col-md-6">
                     <div className="team-item wow fadeInUp" data-wow-delay=".7s">
                       <div className="team-image">
-                        <img src="/assets/images/team/team-4.webp" alt="Team Member" />
+                        <Image src="/assets/images/team/team-4.webp" alt="Team Member" width={300} height={400} />
                       </div>
                       <div className="team-content">
                         <h4 className="name">Emily Davis</h4>

@@ -24,7 +24,7 @@ export default function DepartmentOfVisualCommunication() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
+            <div className="top-space-65"></div>
             {/* start: Banner Section */}
             <section className="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
               <div className="container">
@@ -338,7 +338,7 @@ export default function DepartmentOfVisualCommunication() {
                             <div className="blog-date-wrapper">
                               <span className="blog-author">Duration: 2 Years</span>
                             </div>
-                            <span className="categories">Master's Degree</span>
+                            <span className="categories">Master&apos;s Degree</span>
                           </div>
                           <div className="title-area">
                             <h3 className="title">Career Foundation</h3>

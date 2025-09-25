@@ -27,7 +27,7 @@ export default function DepartmentOfTamilSF() {
       <div id="smooth-wrapper" className={notoTamil.className}>
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="top-space-15"></div>
+            <div className="top-space-65"></div>
             {/* start: Banner Section */}
             <section className="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
               <div className="container">

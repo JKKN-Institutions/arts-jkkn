@@ -1,4 +1,4 @@
-﻿import Header from '../components/Header';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import OffcanvasMenu from '../components/OffcanvasMenu';
 import Link from 'next/link';
@@ -15,7 +15,7 @@ export default function BScZoologyPage() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="primary" className="site-main">
-            <div className="space-for-header"></div>
+            <div className="top-space-65"></div>
             <br/>
             {/* start: Banner Section */}
             <section className="tj-banner-section section-gap-x">
